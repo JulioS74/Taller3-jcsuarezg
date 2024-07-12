@@ -14,7 +14,7 @@ class BoaConstrictor(AnimalExotico):
         return self._peso * 10  # Suponiendo un cálculo arbitrario para el flete
 
     def comer_raton(self) -> None:
-        if self.__ratones_comidos < 10:
+        if self.__ratones_comidos < 20:
             self.__ratones_comidos += 1
         else:
             raise ValueError("¡Demasiados Ratones!")
@@ -22,4 +22,3 @@ class BoaConstrictor(AnimalExotico):
     def dar_ratones_comidos(self) -> int:
         return self.__ratones_comidos
 
-## Este ese le taller N 3

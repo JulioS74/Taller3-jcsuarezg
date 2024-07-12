@@ -22,4 +22,4 @@ class TestBoaConstrictor(unittest.TestCase):
             self.boa.comer_raton()
         with self.assertRaises(ValueError):
             self.boa.comer_raton()
-        self.assertEqual(self.boa.dar_ratones_comidos(), 10)
+        self.assertEqual(self.boa.dar_ratones_comidos(), 20)
